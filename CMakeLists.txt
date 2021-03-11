@@ -4,7 +4,7 @@ project(linux-server-learn VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(linux-server-learn test_oobrecv.cpp)
+add_executable(linux-server-learn  set_recv_buffer.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
