@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     server_addr.sin_port = htons(port);
     inet_pton(AF_INET,  ip, &server_addr.sin_addr);
     // connect
-    if (connect(sockfd, (sockaddr*)&server_addr, sizeof(server_addr)))
+    if (connect(sockfd, (sockaddr*)&server_addr, sizeof(server_addr)) >= 0)
     {
         char buffer[kBufSize];
         recv(sockfd, buffer, kBufSize, 0);
