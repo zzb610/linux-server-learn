@@ -5,9 +5,9 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn  nonblock_connect.cpp)
+add_executable(linux-server-learn  chatroom_server.cpp)
 
-target_link_libraries(linux-server-learn -lpthread)
+# target_link_libraries(linux-server-learn -lpthread)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
