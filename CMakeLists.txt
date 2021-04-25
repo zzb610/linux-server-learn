@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn  union_event.cpp)
+add_executable(linux-server-learn  sigurg.cpp)
 
 # target_link_libraries(linux-server-learn -lpthread)
 
