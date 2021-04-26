@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn  sigurg.cpp)
+add_executable(linux-server-learn  timeout_connect.cpp)
 
 # target_link_libraries(linux-server-learn -lpthread)
 
