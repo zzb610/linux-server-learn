@@ -6,6 +6,9 @@
 #include <ctime>
 
 #define BUFFER_SIZE 64
+
+class util_timer;
+
 struct client_data
 {
     sockaddr_in address;

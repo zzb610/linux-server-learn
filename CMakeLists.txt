@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn  timeout_connect.cpp)
+add_executable(linux-server-learn  close_inactivate_conn.cpp)
 
 # target_link_libraries(linux-server-learn -lpthread)
 
