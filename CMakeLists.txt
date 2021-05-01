@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn chatroom_multiprocess_server.cpp) 
+add_executable(linux-server-learn process_fd.cpp) 
 
 target_link_libraries(linux-server-learn -lrt)
 
