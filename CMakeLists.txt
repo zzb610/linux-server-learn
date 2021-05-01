@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn  close_inactivate_conn.cpp)
+add_executable(linux-server-learn  pv.cpp)
 
 # target_link_libraries(linux-server-learn -lpthread)
 
