@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn deadlock.cpp) 
+add_executable(linux-server-learn thread_fork.cpp) 
 
 target_link_libraries(linux-server-learn -pthread)
 
