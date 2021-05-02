@@ -5,9 +5,9 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn process_fd.cpp) 
+add_executable(linux-server-learn deadlock.cpp) 
 
-target_link_libraries(linux-server-learn -lrt)
+target_link_libraries(linux-server-learn -pthread)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
