@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
-        printf("fail to connect: errno: %s \n", gai);
+        printf("fail to connect: errno: %d \n", errno);
     }
     return 0;
 }

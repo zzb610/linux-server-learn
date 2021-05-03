@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
  
-add_executable(linux-server-learn thread_sig.cpp) 
+add_executable(linux-server-learn processpool_cgi.cpp) 
 
 target_link_libraries(linux-server-learn -pthread)
 
