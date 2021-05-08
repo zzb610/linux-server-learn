@@ -110,6 +110,7 @@ private:
     char *m_file_address;
     struct stat m_file_stat;
     iovec m_iv[2];
+    int m_iv_count;
 };
 
 #endif /* HTTP_CONN_H */
